@@ -226,6 +226,7 @@ function SearchHelper() {
   );
 }
 
+/* eslint-disable react/display-name */
 const SuggestionBox = React.forwardRef(
   ({ showSuggestions, suggestions, handleSuggestionClick, error }, ref) => (
     <>
